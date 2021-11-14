@@ -200,6 +200,7 @@ def main():
     torch.save(model.module.state_dict(), final_model_state_file)
     writer_dict['writer'].close()
     # made a comment
+    # added another comment
 
 if __name__ == '__main__':
     main()
